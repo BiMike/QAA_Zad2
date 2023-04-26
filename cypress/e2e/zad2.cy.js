@@ -18,7 +18,7 @@ describe("Zad2 GoIT - Michał Brzozowski", () => {
     cy.get(".css-bve2vl.e1phyiqy2").contains("Log out").click();
   });
 
-  // describe("Drugi test LMS goIT", () => {
+  // Drugi test
   it("Login and Logout on Site 2", () => {
     cy.login_out("testowyqa@qa.team", "QA!automation-1");
   });
